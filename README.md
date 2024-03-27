@@ -11,5 +11,6 @@
 ```bash
   $ git clone https://github.com/DiegoAndresRa/React.git
   $ cd React/HolaMundo
+  $ npm install
   $ npm run dev
 ```
