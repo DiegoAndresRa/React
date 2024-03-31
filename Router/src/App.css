@@ -18,12 +18,15 @@ form{
 }
 
 button {
+  width: 100px;
   font-size: larger;
   padding: 10px;
   border: none;
-  border-radius: 12px;
+  border-radius: 20px;
   background-color: rgba(151, 68, 186, 0.37);
   color: white;
+  align-self: center;
+  
 }
 
 button a {
