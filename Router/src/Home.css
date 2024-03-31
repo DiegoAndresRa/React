@@ -1,0 +1,38 @@
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header {
+    width: 90%;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(127, 35, 153);
+    border: 2px solid rgba(169, 57, 195, 0.838);
+}
+
+i {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: rgb(183, 0, 255);
+  }
+
+.workContent {
+    width: 90%;
+    height: 80%;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border: 2px solid rgb(153, 0, 188);
+    border-radius: 0 0 20px 20px;
+    background-color: rgba(114, 0, 146, 0.061);
+}

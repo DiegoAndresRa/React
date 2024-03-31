@@ -1,0 +1,44 @@
+#root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+form{
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+}
+
+button {
+  font-size: larger;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  background-color: rgba(151, 68, 186, 0.37);
+  color: white;
+}
+
+button a {
+  color: white;
+}
+
+form input{
+  font-size: larger;
+  background-color: rgba(98, 47, 145, 0.24);
+}
+
+
+.mainLogin{
+  width: 500px;
+  height: 250px;
+  border:2px solid rgb(153, 0, 188);
+  border-radius: 20px;
+}
